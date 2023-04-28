@@ -26,6 +26,7 @@ int print_u(va_list u);
 int print_o(va_list o);
 int print_x(va_list x);
 int print_X(va_list X);
+int print_R(va_list R);
 int print_add(va_list add);
 int print_less(va_list less);
 int print_space(va_list space);
