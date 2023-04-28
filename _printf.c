@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdarg.h>
-
 /**
- * check_format - checks for a validility of format specifier
+ * check_format - checks for a validility of format
  * @format: checking format
  * Return: pointer to valid function or NULL
  */
@@ -12,6 +11,7 @@ int (*check_format(const char *format))(va_list)
 	print_t p[] = {
 		{"c", print_c},
 		{"s", print_s},
+		{"b", print_b},
 		{NULL, NULL}
 	};
 
