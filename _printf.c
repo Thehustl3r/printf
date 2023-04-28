@@ -12,6 +12,7 @@ int (*check_format(const char *format))(va_list)
 		{"c", print_c},
 		{"s", print_s},
 		{"b", print_b},
+		{"p", print_p},
 		{NULL, NULL}
 	};
 
