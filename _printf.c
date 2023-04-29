@@ -10,6 +10,10 @@ int (*check_format(const char *format))(va_list)
 	int i = 0;
 	print_t p[] = {
 		{"c", print_c},
+		{"u", print_u},
+		{"o", print_o},
+		{"x", print_x},
+		{"X", print_X},
 		{"s", print_s},
 		{"b", print_b},
 		{"p", print_p},
