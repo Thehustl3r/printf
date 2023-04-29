@@ -1,6 +1,5 @@
-#include "holberton.h"
 #include <stdlib.h>
-
+#include "main.h"
 /**
  * print_i - prints a base 10 integer
  * @i: integer to print
